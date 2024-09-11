@@ -1,0 +1,103 @@
+body {
+    background-color: ivory;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    font-size: 18px;
+}
+
+p {
+    font-size: 0.9em;
+}
+
+#logo {
+    margin: 0px;
+    padding: 10px;
+    font-family: "Oswald", sans-serif;
+    width: 27%;
+    text-shadow: 
+        2px 2px 0px grey,   /* bottom-right shadow */
+        -2px 2px 0px grey,  /* bottom-left shadow */
+        2px -2px 0px grey,  /* top-right shadow */
+        -2px -2px 0px grey; /* top-left shadow */
+}
+
+ul {
+    margin: 0px;
+}
+
+body > header {
+    background-color: lightsteelblue;
+    color: midnightblue;
+    display: flex;
+    height: 8vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#nav-ul {
+    display: flex;
+}
+
+#nav-ul > li {
+    padding: 10px
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbutton {
+    color:midnightblue ;
+    text-decoration: none;
+    padding: 12px
+}
+
+body > main article {
+    width: 70%;
+    margin: auto;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+#main-content > div {
+   width: 95%;
+}
+
+#main-content aside {
+    width: 10%;
+}
+
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+
+body > footer {
+    background-color: lightsteelblue;
+    display: flex;
+}
+
+img {border-radius: 100%;
+}
+
+#footer-ul {
+    display: flex;
+    list-style: none;
+}
+
+#footer-ul > div > li {
+    margin-left: 12px;
+}
+
+#footer-ul > div > li > a{
+    text-decoration: none;
+    color: white;
+}
